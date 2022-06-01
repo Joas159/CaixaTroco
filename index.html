@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa | Troco</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div class="divContainer">
+        <header>
+            <h1>-CAIXA-</h1>
+        </header>
+
+        <form>
+            <label for="vlrCompra">Valor da Compra</label>
+            <input type="number" id="vlrCompra" value="">
+            <label for="vlrCliente">Valor Entregue do Cliente</label>
+            <input type="number" id="vlrCliente" value="">
+            <button type="button" id="botao">Calcular Troco</button>
+        </form>
+
+        <div class="divResultado escondido">
+            <h3 id="buyValue"></h3> <br/>
+            <h3 id="exchangeValue"></h3> <br/>
+            <h3 id="cedulas"></h3>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

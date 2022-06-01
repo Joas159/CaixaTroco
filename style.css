@@ -1,0 +1,55 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(208, 208, 208);
+}
+
+.divContainer {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    width: 200px;
+    height: 50px;
+    margin: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#vlrCompra,
+#vlrCliente {
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+#botao {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.divResultado {
+    border: 1px solid gray;
+    margin-top: 20px; padding: 10px;
+    border-radius: 5px;
+}
+
+.escondido {
+    display: none;
+}
